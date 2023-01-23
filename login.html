@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700&display=swap" rel="stylesheet">
+<body>
+<header>
+ <div class="logo-busqueda">
+            <div class="logo">
+                <img src="assets/logo juego.png" alt="logo">
+                <p class="logo-azul">Alura</p><p>Geek</p>
+            </div>
+    <div class="busqueda">
+        <form></form>           
+        <input type="search" class="logo-busqueda_input" placeholder="¿Qué deseas buscar?" name="search">
+    </div>
+  
+</div>
+</header>
+<div class="container-login">
+    
+    <div class="form-control">
+        <h2>Iniciar Sesión</h2>
+        <input type="email" name="usuario" placeholder="Escriba su correo electrónico" required >
+        <input type="password" name="clave" placeholder="Escriba su contraseña" required pattern="[A-Za-z]{3}[0-9]{3}">
+       <a href="producto.html" ><button type="submit" class="form__boton" name="entrar">Entrar</button></a> 
+    </div>
+</div>
+
+<section class="contacto">
+    <div class="contacto__container">
+
+        <div class="contacto__referencia--containter">
+
+            <div class="referencia">
+                <img src="assets/logo juego.png" alt="logo">
+                <p class="logo-azul">Alura</p><p>Geek</p>
+            </div>
+
+            <div class="links-utiles">
+                <a href="">Quienes somos</a> <br>
+                <a href="">Política de Privacidad</a> <br>
+                <a href="">Programa de fidelidad</a> <br>
+                <a href="">Nuetras Tiendas</a> <br>
+                <a href="">Quiero ser franquiciado</a> <br>
+                <a href="">Anuncie aqui</a>
+            </div>
+        </div>
+
+           <div class="form">
+               <form action="">
+               <p>Hable con nosotros</p>
+                   <div class="label-float">
+                     <input type="text" name="Nome" id="Nome" class="input-nombre" placeholder="Nombre" required pattern="[A-Za-z]\D{3,20}">
+                     
+                   </div>
+               
+                   <textarea name="mensagem" id="msg" cols="5" rows="5" class="input-mensaje" placeholder="Escribe tu mensaje" required maxlength="50"></textarea>
+               <button type="submit">Enviar Mensaje</button>
+
+           </form>
+           </div>
+
+       </div>
+   </section> 
+ 
+  <footer class="pie">
+     <p>Desarrollado por Diglas Temoche</p>
+     <br>
+     <p>2023</p>
+  </footer>
+
+</body>
